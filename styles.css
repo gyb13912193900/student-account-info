@@ -21,20 +21,20 @@ header {
     margin-right: 20px;
 }
 
-h1, h2 {
-    color: #333;
-}
-
 h1 {
     font-size: 4.5em;
+    color: #333;
 }
 
 h2 {
     font-size: 4.5em;
+    color: #333;
 }
 
 main {
     flex: 1;
+    overflow: auto;
+    padding: 20px;
 }
 
 .student-info, .account-balance {
@@ -60,6 +60,6 @@ footer {
     display: block;
     width: auto;
     height: auto;
-    max-height: 45%;
+    max-height: 50%;
     margin: 0;
 }
