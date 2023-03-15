@@ -16,7 +16,7 @@ header {
 }
 
 .logo {
-    width: 40%;
+    width: 50%;
     height: auto;
     margin-right: 20px;
 }
@@ -35,6 +35,10 @@ main {
     margin-bottom: 10px;
 }
 
+.student-info p, .account-balance p {
+    font-size: 1.5em;
+}
+
 footer {
     position: absolute;
     bottom: 0;
@@ -48,6 +52,6 @@ footer {
     display: block;
     width: auto;
     height: auto;
-    max-height: 50%;
+    max-height: 30%;
     margin: 0;
 }
