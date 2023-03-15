@@ -1,7 +1,7 @@
 const studentInfo = {
-    name: 'John Doe',
-    id: 123456,
-    balance: 500.00
+    name: 'Yubin Gu',
+    id: 34441646,
+    balance: GBP 25,500.00
 };
 
 document.getElementById('student-name').textContent = `Name: ${studentInfo.name}`;
