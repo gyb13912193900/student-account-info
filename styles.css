@@ -1,9 +1,12 @@
-body {
+html, body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    position: relative;
     min-height: 100vh;
-    padding-bottom: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -22,6 +25,10 @@ h1, h2 {
     color: #333;
 }
 
+main {
+    flex: 1;
+}
+
 .student-info, .account-balance {
     background: #f4f4f4;
     padding: 20px;
@@ -32,14 +39,12 @@ footer {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
     display: flex;
     align-items: center;
     padding: 20px;
 }
 
 .footer-image {
-    display: block;
     width: 2535px;
     height: 666px;
     margin: 0;
