@@ -8,4 +8,5 @@ const studentInfo = {
 document.getElementById('student-name').textContent = `Name: ${studentInfo.name}`;
 document.getElementById('student-id').textContent = `ID: ${studentInfo.id}`;
 document.getElementById('balance').textContent = `Balance: $${studentInfo.balance.toFixed(2)}`;
-document.getElementById('bench-fee').textContent = `Bench Fee: $${studentInfo.benchFee.toFixed(2)}`; // make sure to use the correct property name
+document.getElementById('bench-fee').textContent = `Bench Fee: £${studentInfo.benchFee.toFixed(2)}`;
+
