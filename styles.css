@@ -55,16 +55,16 @@ footer {
     align-items: center;
     padding: 20px;
 }
+
 .bench-fee {
-    background: #f4f4f4;
-    padding: 20px;
-    margin-bottom: 10px;
+  background: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 10px;
 }
 
 .bench-fee p {
-    font-size: 4em;
+  font-size: 4em;
 }
-
 
 .footer-image {
     display: block;
