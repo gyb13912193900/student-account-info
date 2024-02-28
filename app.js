@@ -1,8 +1,8 @@
 const studentInfo = {
-    name: 'Yubin Gu',
-    id: 34441646,
-    balance: 25,500.00,
-    benchFee: 5000.00 // changed from 'bench fee' to 'benchFee'
+    name: 'MARCUS',
+    id: 31234566,
+    balance: 0005,500.00,
+    benchFee: 00000.00 // changed from 'bench fee' to 'benchFee'
 };
 
 document.getElementById('student-name').textContent = `Name: ${studentInfo.name}`;
